@@ -1,9 +1,32 @@
+/* Universal for all pages on the site */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: lightgray;
+    margin: 1rem;
+    width: 600px;
+}
+
+/* Styling for the Index page */
+h1 {
+    padding-bottom: 1rem;
+}
+
+#intro {
+    padding-bottom: 1rem;
+}
+
+#recipes-index {
+    padding-bottom: 1rem;
+}
+
+/* Styling for the Recipe pages */
+#dish_photo {
+    height: 500px;
 }
