@@ -1,50 +1,42 @@
 /* Universal for all pages on the site */
 
 * {
-
-}
-
-
-* {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: silver;
+    border: 2px solid black;
+    padding: 2px;
+}
 
 /* Styling for the Index page */
-
-/* h1 {
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    padding: 5px;
-    margin: 0 0 10px;
-}
-
-p {
-    padding: 0 20px;
-}
-
-h2 {
-    background-color: rgb(54, 54, 243);
-    color: white;
-    padding: 5px 0;
-    text-align: center;
-}
-#intro {
-    padding: 0 10;
-}
-
 #recipe-link {
-    padding: 100px 20px;
+    padding: 0 2px 10px;
 }
 
 /* Styling for the Recipe pages */
-/* #dish_photo {
-    width: 590px;
-    padding-left: 5px;
+
+#dish_photo {
+    width: 500px;
 }
 
 figcaption {
+    margin: 0;
+    padding-left: 0px;
+    width: 500px;
     text-align: center;
     margin: 0px;
-} */ */ */
+    font-weight: bold;
+}
+
+#home-link {
+    margin-bottom: 10px;
+}
